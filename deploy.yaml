@@ -31,7 +31,7 @@ spec:
             memory: 1Gi
             cpu: 512m
           limits:
-            memory: 2Gi
+            memory: 1Gi
             cpu: 1024m
           # wenn Pod <1Gi nutzt, wird in Ruhe gelassen
           # wenn Pod 1..2Gi nutzt, wird er evtl ersetzt durch einen neuen Pod auf einem anderen Node, der mehr RAM frei hat
